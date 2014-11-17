@@ -26,15 +26,27 @@
 (miltä se näyttää)
 
     onko käyttöliittymästä kuvia?  luonnoksia vai kuvakaappauksia valmiista käyttöliittymästä?
-		Ei ole käyttöliittymästä mitään kuvia.
+		Ei ole käyttöliittymästä mitään kuvia. 
+		Kansalaisen käyttöliittymä on vasta kehitteillä.  Ennen sen käyttöönottoa tarvitaan runsaasti
+		kehittämistyötä asiakirjarakenteiden ja eri järjestelmien tasolla. Sähköisen arkistointijärjestelmän avulla voidaan
+		kuitenkin luoda perusedellytyksiä sähköiseen asiointiin siirtymisessä ja erityisesti mahdollistaa
+		paperiton asioiden käsittely sosiaalihuollossa.
   
     miten eri näkymien (views) välillä liikutaan?
+		Arkistojärjestelmä ei itse tarjoa sosiaalihuollon työntekijöille käyttöliittymää, vaan asiakirjoja luodaan, haetaan ja käsitellään
+		arkistoon liittyvien tietojärjestelmien kautta.
 
 (prosessimalli)
 
     onko kuvattu? voi olla myös erillisessä projektisuunnitelmadokumentissa
+	
     resurssit? budjetti?
-    riskianalyysi?
+    
+	riskianalyysi?
+	Ei ole tehty vielä. Hanke koettiin kansallisesti merkittäväksi, minkä vuoksi riskianalyysin laatimista
+	pidettiin tärkeänä.
+	Riskikartoituksen tekeminen kannattanee suorittaa laajemminkin kuin pelkkään arkistoratkaisuun
+	kohdistuen hankkeen jatkotyössä.
 
 (johtopäätökset, oma mielipide)
 
