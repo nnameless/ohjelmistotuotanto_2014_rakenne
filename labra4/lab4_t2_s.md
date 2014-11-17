@@ -18,7 +18,7 @@ asiakasasiakirjojen sähköisestä arkistosta
 "Hae asiakirjaluettelo ja kuvailutiedot"
 "Hae asiakirjoja"
 "Muodosta asiakirja, asiakirjan metatiedot ja allekirjoitus"
-"Arkistoi asiakij"
+"Arkistoi asiakirjoja"
 "Korvaa asiakirja"
 "Poista asiakirja"
 
