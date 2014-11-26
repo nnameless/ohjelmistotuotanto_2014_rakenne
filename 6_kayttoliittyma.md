@@ -45,4 +45,4 @@ Kun käyttäjä haluaa lopettaa pelaamisen, kirjautuu hän ulos pelistä ja näy
 
 -) Visualisoi listaamasi näkymät ja niihin liittyvät siirtymät (väh. 3 näkymää)?
 
-![1](https://suursoho.mybalsamiq.com/projects/copyofthesisapp/prototype/Aloitussivu?key=0643d8a87dcd5357d976d8b955731d9ee004064a)
+https://suursoho.mybalsamiq.com/projects/copyofthesisapp/prototype/Aloitussivu?key=0643d8a87dcd5357d976d8b955731d9ee004064a
