@@ -7,22 +7,22 @@ InVisible-pelin järjestelmäarkkitehtuurin erilaisia osia ovat itse pelisovellu
 
 * Mitä komponentteja järjestelmään tarvitaan jotta se pystyy palvelemaan määritettyjä käyttötapauksia?
 
-- käyttäjien yksilöinti
-	- tietokanta käyttäjien yksilöintiin (autentikointi ja sisäänkirjautuminen)
+- autentikointi
+	- tietokanta käyttäjien autentikointiin ja sisäänkirjautumiseen
 	
-- sisätilapaikannuskomponentti
+- sisätilapaikannus
 	- navigointi kartan (koulun pohjapiirustuksen) perusteella
 	- syöte: puhelimen keräämät wlan-signaalivoimakkuudet
 	- tulos: sijaintitiedot (piste interaktiivisessa kartassa)
 	
-- sijaintitietojen saatavuuskomponentti
+- sijaintitiedon jako
 	- palvelinyhteys, jolla mahdollistetaan muiden käyttäjien sijaintietojen jako
 	
-- pelitiedot
+- lukujärjestys- ja tilatietokanta 
 	- tietokanta lukujärjestystietojen ja huonetietojen hallinnointiin
 	
-- tiedonhallinta
+- käyttäjätietokanta
 	- tietokanta käyttäjien tietojen + pelisuorituksen tietojen hallinnointiin
 
-- kommunikointi
-	- chat, jossa käyttäjät voivat kommentoida pelin kulkua keskenään
+- Chat
+	- pikaviestipalvelu, jossa käyttäjät voivat kommentoida pelin kulkua keskenään
