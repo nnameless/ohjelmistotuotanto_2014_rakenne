@@ -1,12 +1,14 @@
 ## Käyttötapaukset
 
-- Määritä tänne järjestelmän loppukäyttäjät?
+# Määritä tänne järjestelmän loppukäyttäjät?
 
-Loppukäyttäjät muodostavat ryhmän, joille projektin lopputuotos on suunattu. Järjestelmän eli ”InVisible”-pelin ensisijaisia loppukäyttäjiä ovat Metropolian Leppävaaran toimipisteen uudet opiskelijat, jotka ovat juuri aloittaneet opintonsa heille entuudestaan tuntemattomassa ympäristössä. Toissijaisia loppukäyttäjiä ovat Metropolian Leppävaaran toimipisteen vanhat opiskelijat sekä muu henkilökunta
+	Loppukäyttäjät muodostavat ryhmän, joille projektin lopputuotos on suunattu. Järjestelmän eli ”InVisible”-pelin ensisijaisia loppukäyttäjiä ovat Metropolian Leppävaaran toimipisteen uudet opiskelijat, jotka ovat juuri aloittaneet opintonsa heille entuudestaan tuntemattomassa ympäristössä. Toissijaisia loppukäyttäjiä ovat Metropolian Leppävaaran toimipisteen vanhat opiskelijat sekä muu henkilökunta
 
-- Käyttötapauskaavio, jossa järjestelmän keskeiset käyttötapaukset?
+# Käyttötapauskaavio, jossa järjestelmän keskeiset käyttötapaukset?
 
-Käyttötapaus (use case) on käyttäjän ja järjestelmän välinen interaktio, joka kuvaa käyttäjälle näkyvän toiminnon. Järjestelmän eli ”InVisible”-pelin käyttötapaukset:
+	Käyttötapaus (use case) on käyttäjän ja järjestelmän välinen interaktio, joka kuvaa käyttäjälle näkyvän toiminnon. 
+	
+	InVisible-pelin käyttötapaukset:
 
 * rekisteröityminen
 * sisäänkirjautuminen
@@ -19,22 +21,51 @@ Käyttötapaus (use case) on käyttäjän ja järjestelmän välinen interaktio,
 * pelaamisen lopettaminen
 * uloskirjautuminen
 
-- Kuvaile tärkeimmät käyttötapauksista käyttötapausskenaarioina mallipohjaan perustuen?
-Käyttäjätarinasta käy ilmi kuka tekee, mitä tekee ja miksi.
+# Kuvaile tärkeimmät käyttötapauksista käyttötapausskenaarioina mallipohjaan perustuen?
+	Käyttäjätarinasta käy ilmi kuka tekee, mitä tekee ja miksi.
+	-> mallipohja: määritä alkutila (initial state), normaali kulku (normal flow), Lopputila (end state)
+	
+Käyttötapaus 1: Uusi opiskelija
+* Käyttäjä etsii sovelluksen ja lataa sen omalle laitteelleen. 
+* Käyttäjä käynnistää pelin ja rekisteröityy sovelluksen käyttäjäksi. 
+* Käyttäjä kirjautuu sisään sovellukseen.
+* Käyttäjä määrittelelee profiilissa itselleen nimimerkin, valitsee oman koulutusohjelman.
+* Käyttäjä aloittaa pelin pelaamisen.
+* Pelissä käyttäjä suunnistaa oman lukujärjestyksensä mukaan paikasta seuraavaan, yleensä luokkahuonesta toiseen, tietyssä aikarajassa.
+* Käyttäjä suorittaa tason kerrallaan päästen pelissä vaikeustasolta toiselle. 
+* Jokaisella tasolla käyttäjä saa uuden tehtävän suunnistaa ennalta määrättyyn paikkaan ennalta määrätyssä ajassa.
+* Jos käyttäjä ei suoriudu tasosta ennalta määrätyssä ajassa, peli päättyy.
+* Käyttäjän suoritus tallentuu hänen käyttäjänimensä alle. 
+* Käyttäjä voi aloittaa uuden pelin.
+* Käyttäjä voi myös jakaa mielipiteitään muille pelaajille.
+* Käyttäjä kirjautuu ulos sovelluksesta.
 
--	mallipohja: määritä alkutila (initial state): käyttäjä etsii pelin internetistä ja lataa sovelluksen laitteelleen. normaali kulku (normal flow): Käyttäjä käynnistää pelin ja kirjautuu sisään sovellukseen. Käyttäjä aloittaa pelin pelaamisen, käyttäjä siirtyy vaiheittain pelissä vaikeustasolta toiselle. Jokaisella tasolla käyttäjä saa uuden tehtävän suunnistaa ennalta määrättyyn paikkaan ennalta määrätyssä ajassa, lopputila (end state):käyttäjä ei suoriudu tasosta ennalta määrätyssä ajassa, jolloin peli päättyy ja käyttäjän suoritus tallentuu hänen käyttäjänimensä alle. Käyttäjä kirjautuu ulos sovelluksesta.
--	kerro myös kuinka normaali kulku voi mennä pieleen: virhetilanne voi syntyä tietoliikennehäiriöstä, internetin toimimattomuudesta ja laiteviasta.
+Käyttötapaus 2: Vanha opiskelija
+* Käyttäjä kirjautuu sisään sovellukseen.
+* Käyttäjä määrittelee profiilissa itselleen nimimerkin ja valitsee jonkun toisen koulutusohjelmansa kuin omansa.
+* Käyttäjä aloittaa peli pelaamisen.
+* Pelissä käyttäjä suunnistaa muiden koulutusohjelmien luokkahuoneisiin vaikeustason mukaan tiukemmassa aikataulussa.
+* Käyttäjä suorittaa tason kerrallaan päästen pelissä vaikeustasolta toiselle.
+* Jokaisella tasolla käyttäjä saa uuden tehtävän suunnistaa ennalta määrättyyn paikkaan ennalta määrätyssä ajassa.
+* Jos käyttäjä ei suoriudu tasosta ennalta määrätyssä ajassa, peli päättyy.
+* Käyttäjän suoritus tallentuu hänen käyttäjänimensä alle. 
+* Käyttäjä voi aloittaa uuden pelin.
+* Käyttäjä voi myös jakaa mielipiteitään muille pelaajille.
+* Käyttäjä kirjautuu ulos sovelluksesta. 
 
--)	Esim. tietoliikenne häiriöstä johtuen käyttäjä ei pääse kirjautumaan sisälle peliin.
--)	Esim. internet-yhteyden hitauden vuoksi pelin pelaaminen ei ole mielekästä
--)	Esim. kännykkä, jolla käyttäjä aikoo pelata peliä, ei käynnisty
--)	Esim. paikannuspalvelu ei ole käytössä
 
--	mahdolliset vaihtoehtoiset kulut (alternate flow): Pelissä olevia mahdollisia vaihtoehtoisia kulkuja normaalikululle ovat:
+# Kerro myös kuinka normaali kulku voi mennä pieleen: virhetilanne voi syntyä tietoliikennehäiriöstä, internetin toimimattomuudesta ja laiteviasta. 
 
--)	käyttäjä on jo suorittanut pelin kaikki tasot, jolloin hän on jo pelannut pelin ”loppuun”
--)	käyttäjä ei pääse ensimmäistä tasoa läpi, jolloin hänen suorituksensa jumiutuu siihen
+* tietoliikennehäiriöstä johtuen käyttäjä ei pääse kirjautumaan sisälle peliin.
+* internet-yhteyden hitauden vuoksi pelin pelaaminen ei ole mielekästä
+* kännykkä, jolla käyttäjä aikoo pelata peliä, ei käynnisty
+* paikannuspalvelu ei ole käytössä
 
--)	käyttäjä voi samanaikaisesti olla laitteellaan kirjautuneena muihinkin järjestelmiin ja vastaanottaa viestejä niistä, esim. sähköposti ja sosiaaliset mediat
+# Mahdolliset vaihtoehtoiset kulut (alternate flow): Pelissä olevia mahdollisia vaihtoehtoisia kulkuja normaalikululle ovat:
 
-Käyttötapauskaavio liitteenä: https://github.com/nnameless/ohjelmistotuotanto_2014_rakenne/blob/master/invisible_kaavio.pdf
+* käyttäjä on jo suorittanut pelin kaikki tasot, jolloin hän on jo pelannut pelin ”loppuun”
+* käyttäjä ei pääse ensimmäistä tasoa läpi, jolloin hänen suorituksensa jumiutuu siihen
+* käyttäjä voi samanaikaisesti olla laitteellaan kirjautuneena muihinkin järjestelmiin ja vastaanottaa viestejä niistä, esim. sähköposti ja sosiaaliset mediat
+
+# Käyttötapauskaavio liitteenä: 
+	https://github.com/nnameless/ohjelmistotuotanto_2014_rakenne/blob/master/invisible_kaavio.pdf
