@@ -33,7 +33,7 @@ Käyttäjä voi halutessaan vaihtaa koulutusohjelmaa valikkonäkymästä, jossa 
 
 Kun käyttäjä haluaa lopettaa pelaamisen, kirjautuu hän ulos pelistä ja näytölle ilmestyy uloskirjoutumisnäkymä, jossa on lopputekstit sekä mahdollisuus kirjautua uudelleen peliin sisään.
 
--) Listaa jokaista näkymää kohti tieto siitä, millaista tietosisältöä tai data käyttöliittymässä näytetään?
+1) Listaa jokaista näkymää kohti tieto siitä, millaista tietosisältöä tai data käyttöliittymässä näytetään?
 
 * Rekisteröinti/sisäänkirjautumisnäkymä: pelin logo, syötetiedot: käyttäjän tunnus ja salasana, login/sign up/forgot password-nappulat
 
@@ -47,6 +47,6 @@ Kun käyttäjä haluaa lopettaa pelaamisen, kirjautuu hän ulos pelistä ja näy
 
 * Uloskirjautumisnäkymä: "loppu"-teksti, login-nappula
 
--) Visualisoi listaamasi näkymät ja niihin liittyvät siirtymät (väh. 3 näkymää)?
+2) Visualisoi listaamasi näkymät ja niihin liittyvät siirtymät (väh. 3 näkymää)?
 
 https://suursoho.mybalsamiq.com/projects/copyofthesisapp/prototype/Aloitussivu?key=0643d8a87dcd5357d976d8b955731d9ee004064a
