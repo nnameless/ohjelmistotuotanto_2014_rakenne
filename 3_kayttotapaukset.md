@@ -1,10 +1,10 @@
 ## Käyttötapaukset
 
-# Määritä tänne järjestelmän loppukäyttäjät?
+### Määritä tänne järjestelmän loppukäyttäjät?
 
 	Loppukäyttäjät muodostavat ryhmän, joille projektin lopputuotos on suunattu. Järjestelmän eli ”InVisible”-pelin ensisijaisia loppukäyttäjiä ovat Metropolian Leppävaaran toimipisteen uudet opiskelijat, jotka ovat juuri aloittaneet opintonsa heille entuudestaan tuntemattomassa ympäristössä. Toissijaisia loppukäyttäjiä ovat Metropolian Leppävaaran toimipisteen vanhat opiskelijat sekä muu henkilökunta
 
-# Käyttötapauskaavio, jossa järjestelmän keskeiset käyttötapaukset?
+### Käyttötapauskaavio, jossa järjestelmän keskeiset käyttötapaukset?
 
 	Käyttötapaus (use case) on käyttäjän ja järjestelmän välinen interaktio, joka kuvaa käyttäjälle näkyvän toiminnon. 
 	
@@ -21,7 +21,7 @@
 * pelaamisen lopettaminen
 * uloskirjautuminen
 
-# Kuvaile tärkeimmät käyttötapauksista käyttötapausskenaarioina mallipohjaan perustuen?
+### Kuvaile tärkeimmät käyttötapauksista käyttötapausskenaarioina mallipohjaan perustuen?
 	Käyttäjätarinasta käy ilmi kuka tekee, mitä tekee ja miksi.
 	-> mallipohja: määritä alkutila (initial state), normaali kulku (normal flow), Lopputila (end state)
 	
@@ -54,18 +54,18 @@ Käyttötapaus 2: Vanha opiskelija
 * Käyttäjä kirjautuu ulos sovelluksesta. 
 
 
-# Kerro myös kuinka normaali kulku voi mennä pieleen: virhetilanne voi syntyä tietoliikennehäiriöstä, internetin toimimattomuudesta ja laiteviasta. 
+### Kerro myös kuinka normaali kulku voi mennä pieleen: virhetilanne voi syntyä tietoliikennehäiriöstä, internetin toimimattomuudesta ja laiteviasta. 
 
 * tietoliikennehäiriöstä johtuen käyttäjä ei pääse kirjautumaan sisälle peliin.
 * internet-yhteyden hitauden vuoksi pelin pelaaminen ei ole mielekästä
 * kännykkä, jolla käyttäjä aikoo pelata peliä, ei käynnisty
 * paikannuspalvelu ei ole käytössä
 
-# Mahdolliset vaihtoehtoiset kulut (alternate flow): Pelissä olevia mahdollisia vaihtoehtoisia kulkuja normaalikululle ovat:
+### Mahdolliset vaihtoehtoiset kulut (alternate flow): Pelissä olevia mahdollisia vaihtoehtoisia kulkuja normaalikululle ovat:
 
 * käyttäjä on jo suorittanut pelin kaikki tasot, jolloin hän on jo pelannut pelin ”loppuun”
 * käyttäjä ei pääse ensimmäistä tasoa läpi, jolloin hänen suorituksensa jumiutuu siihen
 * käyttäjä voi samanaikaisesti olla laitteellaan kirjautuneena muihinkin järjestelmiin ja vastaanottaa viestejä niistä, esim. sähköposti ja sosiaaliset mediat
 
-# Käyttötapauskaavio liitteenä: 
+### Käyttötapauskaavio liitteenä: 
 	https://github.com/nnameless/ohjelmistotuotanto_2014_rakenne/blob/master/invisible_kaavio.pdf
