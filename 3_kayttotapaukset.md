@@ -1,6 +1,6 @@
 ## Käyttötapaukset
 
-### Määritä tänne järjestelmän loppukäyttäjät?
+### Järjestelmän loppukäyttäjät?
 
 	Loppukäyttäjät muodostavat ryhmän, joille projektin lopputuotos on suunattu. 
 	Järjestelmän eli ”InVisible”-pelin ensisijaisia loppukäyttäjiä ovat 
@@ -9,12 +9,7 @@
 	Toissijaisia loppukäyttäjiä ovat Metropolian Leppävaaran toimipisteen vanhat opiskelijat 
 	sekä muu henkilökunta
 
-### Käyttötapauskaavio, jossa järjestelmän keskeiset käyttötapaukset?
-
-	Käyttötapaus (use case) on käyttäjän ja järjestelmän välinen interaktio, 
-	joka kuvaa käyttäjälle näkyvän toiminnon. 
-	
-	InVisible-pelin käyttötapaukset:
+### InVisible-pelin käyttötapaukset:
 
 * rekisteröityminen
 * sisäänkirjautuminen
@@ -27,9 +22,7 @@
 * pelaamisen lopettaminen
 * uloskirjautuminen
 
-### Kuvaile tärkeimmät käyttötapauksista käyttötapausskenaarioina mallipohjaan perustuen?
-	Käyttäjätarinasta käy ilmi kuka tekee, mitä tekee ja miksi.
-	-> mallipohja: määritä alkutila (initial state), normaali kulku (normal flow), Lopputila (end state)
+### Tärkeimmät käyttötapaukset
 	
 Käyttötapaus 1: Uusi opiskelija
 * Käyttäjä etsii sovelluksen ja lataa sen omalle laitteelleen. 
@@ -60,14 +53,14 @@ Käyttötapaus 2: Vanha opiskelija
 * Käyttäjä kirjautuu ulos sovelluksesta. 
 
 
-### Kerro myös kuinka normaali kulku voi mennä pieleen: virhetilanne voi syntyä tietoliikennehäiriöstä, internetin toimimattomuudesta ja laiteviasta. 
+### Kuinka normaali kulku voi mennä pieleen?
 
 * tietoliikennehäiriöstä johtuen käyttäjä ei pääse kirjautumaan sisälle peliin.
 * internet-yhteyden hitauden vuoksi pelin pelaaminen ei ole mielekästä
 * kännykkä, jolla käyttäjä aikoo pelata peliä, ei käynnisty
 * paikannuspalvelu ei ole käytössä
 
-### Mahdolliset vaihtoehtoiset kulut (alternate flow): Pelissä olevia mahdollisia vaihtoehtoisia kulkuja normaalikululle ovat:
+### Pelissä olevia mahdollisia vaihtoehtoisia kulkuja normaalikululle ovat:
 
 * käyttäjä on jo suorittanut pelin kaikki tasot, jolloin hän on jo pelannut pelin ”loppuun”
 * käyttäjä ei pääse ensimmäistä tasoa läpi, jolloin hänen suorituksensa jumiutuu siihen
