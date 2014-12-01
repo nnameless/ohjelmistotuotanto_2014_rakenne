@@ -1,11 +1,12 @@
 ##  Järjestelmäarkkitehtuuri
 
-* Pyri kuvailemaan tässä luvussa järjestelmäarkkitehtuuri yleisellä tasolla
+	Järjestelmäarkkitehtuurin tarkoituksena on kuvata järjestelmä kokonaisvaltaisesti. 
+	Se sisältää järjestelmän osat, niiden sijoittumisen järjestelmässä sekä 
+	osien toteutus- ja tiedonvälitysperiaatteet.
+	InVisible-pelin järjestelmäarkkitehtuurin erilaisia osia ovat itse 
+	pelisovellus, tietokannat, palvelin ja käyttöliittymä.
 
-järjestelmäarkkitehtuurin tarkoituksena on kuvata järjestelmä kokonaisvaltaisesti. Se siältää järjestelmän osat, niiden sijoittumisen järjestelmässä sekä osien toteutus- ja tiedonvälitysperiaatteet.
-InVisible-pelin järjestelmäarkkitehtuurin erilaisia osia ovat itse pelisovellus, tietokannat, palvelin ja käyttöliittymä.
-
-* Mitä komponentteja järjestelmään tarvitaan jotta se pystyy palvelemaan määritettyjä käyttötapauksia?
+### Mitä komponentteja järjestelmään tarvitaan jotta se pystyy palvelemaan määritettyjä käyttötapauksia?
 
 - autentikointi
 	- tietokanta käyttäjien autentikointiin ja sisäänkirjautumiseen
