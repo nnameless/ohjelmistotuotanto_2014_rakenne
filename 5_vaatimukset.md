@@ -25,20 +25,24 @@
 •	Ei-funktionaaliset vaatimukset Esim käytettävyyteen, tietoturvaan, tehokkuuteen, skaalautuvuuteen, hintaan ja prosessimalliin liittyvät vaatimukset
 
 - Tietoturvallisuus:
+
 1.	Käyttäjän henkilökohtaiset tiedot eivät vuoda julkisuuteen
 2.	Peli ei vaadi käyttäjältä muiden tietojen antamista kuin nimimerkin, salasanan ja sähköpostin
 3.	Peli ei kerää käyttäjästä muita tietoja, kuin sijainnin, pelisuoritukset ja mahdolliset kommentit
 
 - Käytettävyys:
+
 4.	Pelistä oma malli eri laitteille; kännykälle, tabletille, tietokoneelle, pelistä oma 
 5.	Pelistä oma malli eri järjestelmille; android, ios, windows
 6.	Käyttäjän tulisi oppia pelin käyttö 5 minuutissa
 
 - Tehokkuus:
+
 7.	Peliä tulee pystyä pelaamaan yhtäaikaisesti 1000 pelaajaa
 8.	Pelissä toisten käyttäjien suorituksia voi yhtäaikaisesti kommentoida 100 käyttäjää
 9. Pelin käynnistämiseen kuluva aika saa olla korkeintaan 5 sekuntia
 10. Pelin kaatuessa peli käynnistää itsensä uudelleen 10 sekunnin kuluessa
 
 - Hinta:
+
 11. Peli on ladattavissa ilmaiseksi Metropolian verkkosivuilta
