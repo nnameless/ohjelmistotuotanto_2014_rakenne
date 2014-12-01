@@ -2,11 +2,17 @@
 
 ### Määritä tänne järjestelmän loppukäyttäjät?
 
-	Loppukäyttäjät muodostavat ryhmän, joille projektin lopputuotos on suunattu. Järjestelmän eli ”InVisible”-pelin ensisijaisia loppukäyttäjiä ovat Metropolian Leppävaaran toimipisteen uudet opiskelijat, jotka ovat juuri aloittaneet opintonsa heille entuudestaan tuntemattomassa ympäristössä. Toissijaisia loppukäyttäjiä ovat Metropolian Leppävaaran toimipisteen vanhat opiskelijat sekä muu henkilökunta
+	Loppukäyttäjät muodostavat ryhmän, joille projektin lopputuotos on suunattu. 
+	Järjestelmän eli ”InVisible”-pelin ensisijaisia loppukäyttäjiä ovat 
+	Metropolian Leppävaaran toimipisteen uudet opiskelijat, jotka 
+	ovat juuri aloittaneet opintonsa heille entuudestaan tuntemattomassa ympäristössä. 
+	Toissijaisia loppukäyttäjiä ovat Metropolian Leppävaaran toimipisteen vanhat opiskelijat 
+	sekä muu henkilökunta
 
 ### Käyttötapauskaavio, jossa järjestelmän keskeiset käyttötapaukset?
 
-	Käyttötapaus (use case) on käyttäjän ja järjestelmän välinen interaktio, joka kuvaa käyttäjälle näkyvän toiminnon. 
+	Käyttötapaus (use case) on käyttäjän ja järjestelmän välinen interaktio, 
+	joka kuvaa käyttäjälle näkyvän toiminnon. 
 	
 	InVisible-pelin käyttötapaukset:
 
