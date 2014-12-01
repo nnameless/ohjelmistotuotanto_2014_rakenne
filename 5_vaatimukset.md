@@ -1,8 +1,5 @@
 ## Vaatimukset 
 
-- Kuvaile tänne funktionaaliset ja ei-funktionaaliset vaatimukset? 
-- Muista esittää vaatimukset jäljitettävässä muodossa, yksiselitteisesti. Keskeinen tapa (erityisesti ei-funktionaalisiin vaatimuksiin) yksiselitteisille kuvauksille on vaatimusten mitattavuus (software metrics)
-
 •	Funktionaaliset vaatimukset tarkentavat käyttötapauksia
 
 1.	Pelin kielen voi muuttaa asetusnäkymästä, vaihtoehtoina suomi, saksa, englanti, venäjä ja kiina
@@ -26,15 +23,15 @@
 
 - Tietoturvallisuus:
 
-1.	Käyttäjän henkilökohtaiset tiedot eivät vuoda julkisuuteen
+1.	Käyttäjän henkilökohtaiset tiedot salataan
 2.	Peli ei vaadi käyttäjältä muiden tietojen antamista kuin nimimerkin, salasanan ja sähköpostin
 3.	Peli ei kerää käyttäjästä muita tietoja, kuin sijainnin, pelisuoritukset ja mahdolliset kommentit
 
 - Käytettävyys:
 
-4.	Pelistä oma malli eri laitteille; kännykälle, tabletille, tietokoneelle, pelistä oma 
-5.	Pelistä oma malli eri järjestelmille; android, ios, windows
-6.	Käyttäjän tulisi oppia pelin käyttö 5 minuutissa
+4.	Peli toimii seuraavilla laitteilla; kännykkä, tabletti, tietokone
+5.	Käyttäjän tulisi oppia pelin peruskäyttö 5 minuutissa
+6.  Toiminnot tulee voida suorittaa alle 5 näpäytyksellä
 
 - Tehokkuus:
 
@@ -46,3 +43,4 @@
 - Hinta:
 
 11. Peli on ladattavissa ilmaiseksi Metropolian verkkosivuilta
+12. Seuraavassa versiossa lisätään maksullisia lisätoimintoja peliin
