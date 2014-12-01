@@ -36,3 +36,5 @@ Käyttäjätarinasta käy ilmi kuka tekee, mitä tekee ja miksi.
 -)	käyttäjä ei pääse ensimmäistä tasoa läpi, jolloin hänen suorituksensa jumiutuu siihen
 
 -)	käyttäjä voi samanaikaisesti olla laitteellaan kirjautuneena muihinkin järjestelmiin ja vastaanottaa viestejä niistä, esim. sähköposti ja sosiaaliset mediat
+
+Käyttötapauskaavio liitteenä: https://github.com/nnameless/ohjelmistotuotanto_2014_rakenne/blob/master/invisible_kaavio.pdf
