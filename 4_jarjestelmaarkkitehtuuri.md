@@ -15,12 +15,11 @@ InVisible-pelin järjestelmäarkkitehtuurin erilaisia osia ovat itse pelisovellu
 	- syöte: puhelimen keräämät wlan-signaalivoimakkuudet
 	- tulos: sijaintitiedot (piste interaktiivisessa kartassa)
 	
-- sijaintitietojen saatavuus
+- sijaintitietojen saatavuuskomponentti
 	- palvelinyhteys, jolla mahdollistetaan muiden käyttäjien sijaintietojen jako
 	
 - pelitiedot
-	- lukujärjestystiedot
-	- huonetiedot
+	- tietokanta lukujärjestystietojen ja huonetietojen hallinnointiin
 	
 - tiedonhallinta
 	- tietokanta käyttäjien tietojen + pelisuorituksen tietojen hallinnointiin
