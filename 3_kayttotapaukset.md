@@ -7,7 +7,7 @@
 	Metropolian Leppävaaran toimipisteen uudet opiskelijat, jotka 
 	ovat juuri aloittaneet opintonsa heille entuudestaan tuntemattomassa ympäristössä. 
 	Toissijaisia loppukäyttäjiä ovat Metropolian Leppävaaran toimipisteen vanhat opiskelijat 
-	sekä muu henkilökunta
+	sekä koulun muu henkilökunta.
 
 ### InVisible-pelin käyttötapaukset:
 
@@ -28,9 +28,9 @@ Käyttötapaus 1: Uusi opiskelija
 * Käyttäjä etsii sovelluksen ja lataa sen omalle laitteelleen. 
 * Käyttäjä käynnistää pelin ja rekisteröityy sovelluksen käyttäjäksi. 
 * Käyttäjä kirjautuu sisään sovellukseen.
-* Käyttäjä määrittelelee profiilissa itselleen nimimerkin, valitsee oman koulutusohjelman.
+* Käyttäjä määrittelelee profiilissa itselleen nimimerkin ja valitsee oman koulutusohjelman.
 * Käyttäjä aloittaa pelin pelaamisen.
-* Pelissä käyttäjä suunnistaa oman lukujärjestyksensä mukaan paikasta seuraavaan, yleensä luokkahuonesta toiseen, tietyssä aikarajassa.
+* Pelissä käyttäjä suunnistaa oman lukujärjestyksensä mukaan paikasta seuraavaan, eli luokkahuonesta toiseen tietyssä aikarajassa.
 * Käyttäjä suorittaa tason kerrallaan päästen pelissä vaikeustasolta toiselle. 
 * Jokaisella tasolla käyttäjä saa uuden tehtävän suunnistaa ennalta määrättyyn paikkaan ennalta määrätyssä ajassa.
 * Jos käyttäjä ei suoriudu tasosta ennalta määrätyssä ajassa, peli päättyy.
@@ -41,7 +41,7 @@ Käyttötapaus 1: Uusi opiskelija
 
 Käyttötapaus 2: Vanha opiskelija
 * Käyttäjä kirjautuu sisään sovellukseen.
-* Käyttäjä määrittelee profiilissa itselleen nimimerkin ja valitsee jonkun toisen koulutusohjelmansa kuin omansa.
+* Käyttäjä määrittelee profiilissa itselleen nimimerkin ja valitsee jonkun toisen koulutusohjelman kuin omansa.
 * Käyttäjä aloittaa peli pelaamisen.
 * Pelissä käyttäjä suunnistaa muiden koulutusohjelmien luokkahuoneisiin vaikeustason mukaan tiukemmassa aikataulussa.
 * Käyttäjä suorittaa tason kerrallaan päästen pelissä vaikeustasolta toiselle.
@@ -55,7 +55,7 @@ Käyttötapaus 2: Vanha opiskelija
 
 ### Kuinka normaali kulku voi mennä pieleen?
 
-* tietoliikennehäiriöstä johtuen käyttäjä ei pääse kirjautumaan sisälle peliin.
+* tietoliikennehäiriöstä johtuen käyttäjä ei pääse kirjautumaan sisälle peliin
 * internet-yhteyden hitauden vuoksi pelin pelaaminen ei ole mielekästä
 * kännykkä, jolla käyttäjä aikoo pelata peliä, ei käynnisty
 * paikannuspalvelu ei ole käytössä
