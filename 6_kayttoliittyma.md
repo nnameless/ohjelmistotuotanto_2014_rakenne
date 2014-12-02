@@ -20,10 +20,10 @@ käyttötapaukset ryhmitellään loogisiin kokonaisuuksiin, jotka muodostavat to
 ### Tilasiirtymät
 
 * Asennusnäkymästä siirrytään automaattisesti rekisteröintinäkymään. 
-* Rekisteröintinäkymästä pääsee pelinäkymään
+* Rekisteröintinäkymästä pääsee pelinäkymään.
 * Pelinäkymästä pääsee asetus-, valikko- kommentti- tai uloskirjautumisnäkymään. 
 * Asetusnäkymästä pääsee peli-, valikko-, kommentti- tai uloskirjautumisnäkymään. 
-* Valikkonäkymästä pääsee peli-, asetus-, valikko- kommentti- tai uloskirjautumisnäkymään. 
+* Valikkonäkymästä pääsee peli-, asetus-, kommentti- tai uloskirjautumisnäkymään. 
 * Uloskirjautumisnäkymästä pääsee takaisin sisäänkirjautumisnäkymään.
 
 ### Näkymien kuvailu
@@ -44,7 +44,7 @@ liikkeet näkyvät reaaliaikaisesti.
 
 Asetusnäkymässä näkyvät käyttäjän tiedot sekä pelin etenemistilanne. 
 Käyttäjä voi halutessaan vaihtaa käyttämäänsä nimimerkkiä ja kuvaa sekä valita 
-haluamansa koulutusohjelman pelattavakseen.
+haluamansa koulutusohjelman ja vaikeustason pelattavakseen.
 
 Käyttäjä voi halutessaan vaihtaa koulutusohjelmaa valikkonäkymästä, 
 jossa on listattuna kampuksen kaikki koulutusohjelmat, joiden lukujärjestyksien mukaista 
@@ -59,11 +59,11 @@ uloskirjoutumisnäkymä, jossa on lopputekstit sekä mahdollisuus kirjautua uude
 
 * Rekisteröinti/sisäänkirjautumisnäkymä: pelin logo, syötetiedot: käyttäjän tunnus ja salasana, login/sign up/forgot password-nappulat
 
-* Pelinäkymä: seuraava tehtävä, koulun kartta, suoritettava taso, back/asetus/uusi ikoulutusohjelma/kommentti/logout-nappulat
+* Pelinäkymä: seuraava tehtävä, koulun kartta, suoritettava taso, back/asetus/kommentti/uusi ikoulutusohjelma/logout-nappulat
 
 * Kommenttinäkymä: Käyttäjien kommentit listattuna, back/logout-nappulat
 
-* Asetusnäkymä: logo, käyttäjätiedot, koulutusohjelma, pelin taso, aloita/uusi koulutusohjelma/kommentti/logout-nappulat
+* Asetusnäkymä: logo, käyttäjätiedot, koulutusohjelma, pelin taso, aloita/kommentti/uusi koulutusohjelma/logout-nappulat
 
 * Valikkonäkymä: koulutusohjelmat listattuna, back/aloita/asetus/kommentit/logout-nappulat
 
