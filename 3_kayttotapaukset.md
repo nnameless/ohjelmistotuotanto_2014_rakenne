@@ -28,9 +28,9 @@ Käyttötapaus 1: Uusi opiskelija
 * Käyttäjä etsii sovelluksen ja lataa sen omalle laitteelleen. 
 * Käyttäjä käynnistää pelin ja rekisteröityy sovelluksen käyttäjäksi. 
 * Käyttäjä kirjautuu sisään sovellukseen.
-* Käyttäjä määrittelelee profiilissa itselleen nimimerkin ja valitsee oman koulutusohjelman.
+* Käyttäjä määrittelelee profiilissa itselleen nimimerkin ja valitsee oman koulutusohjelmansa.
 * Käyttäjä aloittaa pelin pelaamisen.
-* Pelissä käyttäjä suunnistaa oman lukujärjestyksensä mukaan paikasta seuraavaan, eli luokkahuonesta toiseen tietyssä aikarajassa.
+* Pelissä käyttäjä suunnistaa oman lukujärjestyksensä mukaan paikasta seuraavaan, eli luokkahuoneesta toiseen tietyssä aikarajassa.
 * Käyttäjä suorittaa tason kerrallaan päästen pelissä vaikeustasolta toiselle. 
 * Jokaisella tasolla käyttäjä saa uuden tehtävän suunnistaa ennalta määrättyyn paikkaan ennalta määrätyssä ajassa.
 * Jos käyttäjä ei suoriudu tasosta ennalta määrätyssä ajassa, peli päättyy.
