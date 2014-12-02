@@ -3,7 +3,7 @@
 •	Funktionaaliset vaatimukset tarkentavat käyttötapauksia
 
 1.	Pelin kielen voi muuttaa asetusnäkymästä, vaihtoehtoina suomi, saksa, englanti, venäjä ja kiina
-2.	Peliä voi pelata kosketusnäytöllä tai tavallisen näppäimistön nuolinppäimillä
+2.	Peliä voi pelata kosketusnäytöllä tai tavallisen näppäimistön nuolinäppäimillä
 3.	Peli tunnistaa käyttäjät kampuksen verkkoon kytkettyjen laitteiden fyysisten osoitteiden avulla
 4.	Pelisuorituksia voi kommentoida (kommentti korkeintaan 50 merkkiä pitkä)
 5.	Pelaaja voi vaihtaa nimimerkkinsä
@@ -19,7 +19,7 @@
 15.	Käyttäjä voi lopettaa pelaamisen koska tahansa painamalla logout-nappulaa
 16.	Pelin kaatuessa lähetetään virheilmoitus automaattisesti ylläpitoon
 
-•	Ei-funktionaaliset vaatimukset Esim käytettävyyteen, tietoturvaan, tehokkuuteen, skaalautuvuuteen, hintaan ja prosessimalliin liittyvät vaatimukset
+•	Ei-funktionaaliset vaatimukset liittyvät esimerkiksi käytettävyyteen, tietoturvaan, tehokkuuteen, skaalautuvuuteen, hintaan ja prosessimalliin
 
 - Tietoturvallisuus:
 
