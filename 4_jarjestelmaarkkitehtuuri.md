@@ -9,7 +9,7 @@
 ### Mitä komponentteja järjestelmään tarvitaan jotta se pystyy palvelemaan määritettyjä käyttötapauksia?
 
 - autentikointi
-	- tietokanta käyttäjien autentikointiin ja sisäänkirjautumiseen
+	- tietokanta käyttäjien autentikointiin, rekisteröitymiseen ja sisäänkirjautumiseen
 	
 - sisätilapaikannus
 	- navigointi kartan (koulun pohjapiirustuksen) perusteella
@@ -17,13 +17,13 @@
 	- tulos: sijaintitiedot (piste interaktiivisessa kartassa)
 	
 - sijaintitiedon jako
-	- palvelinyhteys, jolla mahdollistetaan muiden käyttäjien sijaintietojen jako
+	- palvelinyhteys, jolla mahdollistetaan muiden käyttäjien sijaintietojen synkronointi
 	
 - lukujärjestys- ja tilatietokanta 
 	- tietokanta lukujärjestystietojen ja huonetietojen hallinnointiin
 	
 - käyttäjätietokanta
-	- tietokanta käyttäjien tietojen + pelisuorituksen tietojen hallinnointiin
+	- tietokanta käyttäjien henkilötietojen ja pelisuoritustietojen hallinnointiin
 
 - Chat
 	- pikaviestipalvelu, jossa käyttäjät voivat kommentoida pelin kulkua keskenään
